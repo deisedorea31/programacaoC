@@ -9,27 +9,17 @@ Neste primeiro nível, meu objetivo é construir a base do jogo Super Trunfo de 
 
 O que será feito:
 
-
 Criar um programa em C que permita ao usuário inserir os dados de duas cartas do Super Trunfo. Para cada carta, o usuário deverá fornecer as seguintes informações:
 
+- Estado: Uma letra de 'A' a 'H' (representando um dos oito estados). Tipo: char
+- Código da Carta: A letra do estado seguida de um número de 01 a 04 (ex: A01, B03). Tipo: char[] (um array de caracteres, ou string)
+- Nome da Cidade: O nome da cidade. Tipo: char[] (string)
+- População: O número de habitantes da cidade. Tipo: int
+- Área (em km²): A área da cidade em quilômetros quadrados. Tipo: float
+- PIB: O Produto Interno Bruto da cidade. Tipo: float
+- Número de Pontos Turísticos: A quantidade de pontos turísticos na cidade. Tipo: int
  
-Estado: Uma letra de 'A' a 'H' (representando um dos oito estados). Tipo: char
- 
-Código da Carta: A letra do estado seguida de um número de 01 a 04 (ex: A01, B03). Tipo: char[] (um array de caracteres, ou string)
- 
-Nome da Cidade: O nome da cidade. Tipo: char[] (string)
- 
-População: O número de habitantes da cidade. Tipo: int
- 
-Área (em km²): A área da cidade em quilômetros quadrados. Tipo: float
- 
-PIB: O Produto Interno Bruto da cidade. Tipo: float
- 
-Número de Pontos Turísticos: A quantidade de pontos turísticos na cidade. Tipo: int
- 
-
 Após o usuário inserir os dados de cada carta, o programa deve exibir na tela as informações cadastradas, de forma organizada e legível. Para cada carta, imprimir cada informação em uma linha separada, com uma descrição clara. Por exemplo:
-
  
 Carta 1:
 Estado: A
@@ -68,7 +58,6 @@ Neste nível, foque apenas na leitura, armazenamento e exibição das informaç�
 Não utilize estruturas de repetição (como for ou while) ou estruturas de decisão (como if ou else). Seu código deve ser uma sequência simples de instruções.
 
 Entregando seu Projeto
-
 
 Desenvolva seu projeto no GitHub: Crie um repositório público no GitHub para o seu projeto. Recomendamos usar o GitHub Codespaces para facilitar o desenvolvimento.
 Crie o arquivo do seu código: No seu repositório, crie um arquivo chamado super_trunfo.c com o seu código C.
