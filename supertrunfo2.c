@@ -72,8 +72,8 @@ int main() {
     densidade2 = populacao2 / area2;
 
 // Calculando o PIB per Capita de cada cidade
-    pibcapita1 = (pib1 * 1e9) / populacao1; // PIB está em bilhões
-    pibcapita2 = (pib2 * 1e9) / populacao2;
+    pibcapita1 = (pib1 * 1000000000) / populacao1; // PIB está em bilhões
+    pibcapita2 = (pib2 * 1000000000) / populacao2;
 
 // Mostrando Carta 1
     printf("\n--- Carta 1 ---\n");
