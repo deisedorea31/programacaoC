@@ -11,6 +11,8 @@ A diferença é que, agora, o programa deve, também:
 #include <stdio.h>
 #include <string.h>
 
+// Criando as Cartas 1 e 2
+
 int main() {
     char estado1[3], estado2[3];
     char carta1[5], carta2[5];
@@ -20,6 +22,8 @@ int main() {
     int turisticos1, turisticos2;
     double densidade1, densidade2;
     double pibcapita1, pibcapita2;
+
+// Solicitando a entrada dos dados de cada carta
 
     printf("Digite a letra do Primeiro Estado: \n");
     scanf("%2s", estado1);
@@ -63,14 +67,15 @@ int main() {
     printf("Quantos pontos turísticos há na Segunda Cidade?: \n");
     scanf("%d", &turisticos2);
 
-    // Calculando
+// Calculando a densidade demográfica de cada cidade
     densidade1 = populacao1 / area1;
     densidade2 = populacao2 / area2;
 
+// Calculando o PIB per Capita de cada cidade
     pibcapita1 = (pib1 * 1e9) / populacao1; // PIB está em bilhões
     pibcapita2 = (pib2 * 1e9) / populacao2;
 
-    // Mostrando Carta 1
+// Mostrando Carta 1
     printf("\n--- Carta 1 ---\n");
     printf("Estado: %s\n", estado1);
     printf("Código: %s\n", carta1);
@@ -82,7 +87,7 @@ int main() {
     printf("Densidade populacional: %.2f hab/km²\n", densidade1);
     printf("PIB per Capita: %.2f reais\n", pibcapita1);
 
-    // Mostrando Carta 2
+// Mostrando Carta 2
     printf("\n--- Carta 2 ---\n");
     printf("Estado: %s\n", estado2);
     printf("Código: %s\n", carta2);
