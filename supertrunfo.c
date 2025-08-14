@@ -1,4 +1,7 @@
 /*
+Faculdade: Estácio de Sá
+Curso: Análise e Desenvolvimento de Sistemas - Desafio Inicial
+
 Super Trunfo - Nível Iniciante
 Criar um sistema para cadastrar as cartas com informações sobre as cidades. 
 */
