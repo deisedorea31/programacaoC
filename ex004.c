@@ -23,7 +23,7 @@ int main() {
     printf("Entre com o estoque total: \n");
     scanf("%u", &estoque);
 
-    // Estruturas de decisãol
+    // Estruturas de decisão
     if (temperatura > 30) {
         printf("Temperatura está alta! \n");
     } else {
