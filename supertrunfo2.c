@@ -1,12 +1,11 @@
 /* Super Trunfo - Nível Aventureiro
     Calculando Densidade Populacional e PIB per Capita
     O que será feito:
-    Aprimorar o Super Trunfo nível médio. O programa continuará lendo as mesmas instruções do usuário.
+    Aprimorar o Super Trunfo nível iniciante. O programa continuará lendo as mesmas instruções do usuário.
 A diferença é que, agora, o programa deve, também:
-1. CALCULAR A DENSIDADE POPULACIONAL E PIB PER CAPITA;
-2. CALCULAR O SUPER PODER DE CADA CARTA;
+1. CALCULAR A DENSIDADE POPULACIONAL;
+2. CALCULAR O PIB PER CAPITA;
 3. EXIBIR A COMPARAÇÃO ENTRE AS DUAS CARTAS;
-4. EXIBIR QUAL CARTA FOI A VENCEDORA EM CADA CRITÉRIO;
 */
 
 #include <stdio.h>
@@ -76,12 +75,6 @@ int main() {
     pibcapita1 = (pib1 * 1000000000) / populacao1; // PIB está em bilhões
     pibcapita2 = (pib2 * 1000000000) / populacao2;
 
-// Calculando o Super Poder de cada carta
-    float invdensidade1 = area1 / populacao1; // Inversão da densidade populacional
-    float invdensidade2 = area2 / populacao2;
-    float superpoder1 = populacao1 + area1 + pib1 + pibcapita1 + turisticos1 + invdensidade1;
-    float superpoder2 = populacao2 + area2 + pib2 + pibcapita2 + turisticos2 + invdensidade2;    
-
 // Mostrando Carta 1
     printf("\n--- Carta 1 ---\n");
     printf("Estado: %s\n", estado1);
@@ -106,95 +99,5 @@ int main() {
     printf("Densidade populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per Capita: %.2f reais\n", pibcapita2);
 
-// --- Lógica de comparação entre as cartas ---
-printf("\n--- Resultados das Comparações ---\n");
-
-int pontos1 = 0, pontos2 = 0; // placar das cartas
-
-// População
-printf("\nPopulação:\n");
-if(populacao1 >= populacao2) {
-    printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-    pontos1++;
-} else {
-    printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
-    pontos2++;
-}
-
-// Área
-printf("\nÁrea (km²):\n");
-if(area1 >= area2) {
-    printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-    pontos1++;
-} else {
-    printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
-    pontos2++;
-}
-
-// PIB
-printf("\nPIB (bilhões de reais):\n");
-if(pib1 >= pib2) {
-    printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-    pontos1++;
-} else {
-    printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
-    pontos2++;
-}
-
-// Pontos turísticos
-printf("\nPontos turísticos:\n");
-if(turisticos1 >= turisticos2) {
-    printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-    pontos1++;
-} else {
-    printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
-    pontos2++;
-}
-
-// Densidade populacional (quanto menor, melhor)
-printf("\nDensidade populacional (hab/km²):\n");
-if(densidade1 <= densidade2) {
-    printf("Resultado: Carta 1 (%s) venceu (menor densidade)!\n", cidade1);
-    pontos1++;
-} else {
-    printf("Resultado: Carta 2 (%s) venceu (menor densidade)!\n", cidade2);
-    pontos2++;
-}
-
-// PIB per capita
-printf("\nPIB per capita (reais):\n");
-if(pibcapita1 >= pibcapita2) {
-    printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
-    pontos1++;
-} else {
-    printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
-    pontos2++;
-}
-
-// Super Poder
-printf("\nSuper Poder:\n");
-printf("Superpoder Carta 1: %.2f\n", superpoder1);
-printf("Superpoder Carta 2: %.2f\n", superpoder2);
-if(superpoder1 >= superpoder2) {
-    printf("Resultado: Carta 1 (%s) venceu no Super Poder!\n", cidade1);
-    pontos1++;
-} else {
-    printf("Resultado: Carta 2 (%s) venceu no Super Poder!\n", cidade2);
-    pontos2++;
-}
-
-// --- Placar Final ---
-printf("\n=== Placar Final ===\n");
-printf("Carta 1 (%s): %d pontos\n", cidade1, pontos1);
-printf("Carta 2 (%s): %d pontos\n", cidade2, pontos2);
-
-// Sempre há uma vencedora
-if(pontos1 >= pontos2) {
-    printf("\n🏆 A grande vencedora foi a Carta 1 (%s)!\n", cidade1);
-} else {
-    printf("\n🏆 A grande vencedora foi a Carta 2 (%s)!\n", cidade2);
-
     return 0;
-}
-
 }
