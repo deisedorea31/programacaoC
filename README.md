@@ -1,42 +1,84 @@
-# 📘 Estudos em Linguagem C – “Super Trunfo de Países”
+📘 Estudos em Linguagem C
 
-Repositório dos exercícios feitos durante meu curso de **Análise e Desenvolvimento de Sistemas** na **Universidade Estácio de Sá**, com foco no cadastro e exibição de dados para um mini-jogo de Super Trunfo de Países.
+Repositório destinado a registrar meu aprendizado da disciplina de Programação em C no curso de Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá.
 
-## ✅ O que já fiz
-- Criei um sistema para cadastrar as cartas com informações sobre as cidades. :
-1. Estado (letra A–H), código da carta (ex.: A01), nome da cidade, população, área, PIB e número de pontos turísticos.
-2. Realizei leitura dos dados via teclado, armazenamento em variáveis apropriadas e exibição formatada na tela (cartão por cartão).
-O que foi estudado:
-- Conceito de solução estruturada;
-- Raciocínio lógico e pensamento computacional;
-- Variáveis e tipos de dados;
-- Entrada e saída de dados (printf e scanf).
+O objetivo é documentar, de forma prática e organizada, cada conteúdo estudado — desde fundamentos básicos até tópicos mais avançados.
+A cada nova matéria, adicionarei exemplos, exercícios e anotações no README.md.
 
-- Aprimorei o Super Trunfo nível iniciante. O programa continuará lendo as mesmas instruções do usuário.
-A diferença é que, agora, o programa deve, também:
-1. Cálculo para densidade populaciona;
-2. Cálculo de PIB Per Capita;
-3. Exibição de todos os resultados.
-O que foi estudado:
-- Operadores relacionais;
-- Ferramentas de planejamento de soluções (pseudocódigo e fluxograma; Portugol);
-- Operadores matemáticos;
-- Manipulação e conversão de tipos de dados (conversão implícita e explícita).
+✅ Conteúdos já estudados
+🔹 Fundamentos da linguagem
 
-- Desenvolvi um programa em C que simula o jogo Super Trunfo. O Programa deverá:
-1.Implementei a lógica de comparação entre duas cartas, considerando diferentes atributos numéricos.
-2.Incluí **estruturas de decisão** (`if` / `else`) para permitir comparações ou validações.
-3. Segui os requisitos da disciplina, enfatizando **legibilidade, usabilidade e correção do código**, sem utilizar estruturas de repetição ou decisão.
-O que foi estudado:
-- Modificadores de tipos de dados;
-- Operadores relacionais;
+Cadastro de dados com variáveis simples
+Entrada (scanf) e saída (printf)
+Estrutura de solução sequencial
+📚 Estudei:
+Conceito de solução estruturada
+Variáveis e tipos de dados
+Entrada e saída de dados
+Raciocínio lógico e pensamento computacional
 
-## 🚀 Próximos passos
-- Adicionar **laços de repetição** (`for`, `while`) para tornar o cadastro mais dinâmico — por exemplo, cadastrar várias cartas sem replicar código.
-- Avançar para conceitos fundamentais como **funções**, **arrays**, **strings**, **ponteiros** e **alocação dinâmica**.
-- Futuramente, explorar **estruturas de dados** (listas, filas, pilhas) e desenvolver mini-jogos ou simulações mais completas utilizando C.
+🔹 Operadores matemáticos e relacionais
+Cálculo de densidade populacional e PIB per capita
+Comparação de atributos numéricos
+📚 Estudei:
+Operadores matemáticos
+Operadores relacionais
+Conversão de tipos de dados (implícita e explícita)
+Ferramentas de planejamento (pseudocódigo, fluxograma, Portugol)
 
----
+🔹 Estruturas de decisão
+Comparação entre atributos de duas cartas
+Implementação de lógica condicional usando if e else
+Ênfase em legibilidade, usabilidade e correção do código
+📚 Estudei:
+Modificadores de tipos
+Operadores relacionais
+Estruturas condicionais
 
-> Este repositório é parte do meu aprendizado acadêmico na **Estácio (ADS)** e representa o ponto de partida da minha trajetória em programação.  
-> Hoje, focado no ensino formal da faculdade, mas com planos de expandir os estudos e projetos além dela.
+🔹 Operadores lógicos
+Uso de &&, || e ! para combinar condições
+Testes de expressões lógicas em diferentes cenários
+📚 Estudei:
+Operadores lógicos
+Precedência: ! → && → ||
+Expressões condicionais mais complexas
+
+🔹 Estrutura de decisão aninhada
+Uso de if dentro de outro if para testar condições dependentes
+Permite criar verificações mais detalhadas e específicas
+📚 Estudei:
+Estruturas de decisão dentro de decisões (nested if)
+Condições dependentes entre si
+Aplicação prática em cenários como idade e classificação de cidades
+
+🔹 Estrutura de decisão encadeada
+Uso de if → else if → else para testar várias condições em sequência
+A primeira condição verdadeira interrompe a avaliação das demais
+📚 Estudei:
+Encadeamento de decisões (if / else if / else)
+Comparação sequencial de faixas de valores
+Aplicação prática em categorização, como faixas etárias
+
+
+🎮 Projeto Prático – Super Trunfo de Países
+Durante os estudos, desenvolvi um mini-projeto inspirado no jogo Super Trunfo, que foi sendo aprimorado a cada módulo:
+1. Cadastro inicial das cartas: Estado (A–H), código da carta, nome da cidade, população, área, PIB e pontos turísticos.
+2. Entrada via teclado e exibição formatada na tela.
+3. Cálculos adicionais
+4. Implementação da densidade populacional e PIB per capita.
+5. Exibição dos resultados junto às informações cadastradas.
+6. Comparação de cartas
+7. Implementação da lógica de comparação entre atributos.
+8. Uso de estruturas de decisão (if / else).
+
+📌 Esse projeto foi importante para aplicar conceitos como entrada/saída, variáveis, operadores matemáticos, relacionais e lógicos, além de reforçar o pensamento computacional.
+
+🚀 Próximos passos
+Implementar laços de repetição (for, while) para cadastro de múltiplas cartas.
+Avançar para funções, arrays, strings e ponteiros.
+Estudar alocação dinâmica e estruturas de dados (listas, filas, pilhas).
+Criar novos projetos práticos e mini-jogos em C.
+
+-----------------------------------------------------------------------------------------------------------------
+Este repositório é parte do meu aprendizado acadêmico na Estácio (ADS) e representa o ponto de partida da minha trajetória em programação.
+Hoje, focado no ensino formal da faculdade, mas com planos de expandir os estudos e projetos além dela.
