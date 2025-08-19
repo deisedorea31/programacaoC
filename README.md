@@ -6,8 +6,8 @@ O objetivo é documentar, de forma prática e organizada, cada conteúdo estudad
 A cada nova matéria, adicionarei exemplos, exercícios e anotações no README.md.
 
 ✅ Conteúdos já estudados
-🔹 Fundamentos da linguagem
 
+🔹 Fundamentos da linguagem
 Cadastro de dados com variáveis simples
 Entrada (scanf) e saída (printf)
 Estrutura de solução sequencial
@@ -70,6 +70,7 @@ Uso do case para mapear valores específicos
 Importância do break para evitar fall through (execução em cascata indesejada)
 Aplicação prática em menus, opções de sistemas e categorização de escolhas fixas
 Simulação de um caixa eletrônico, com verificação de saldo, depósito e saque
+Programa que imprime o nome do dia da semana com base em números de 1 a 7
 
 🎮 Projeto Prático – Super Trunfo de Países
 Durante os estudos, desenvolvi um mini-projeto inspirado no jogo Super Trunfo, que foi sendo aprimorado a cada módulo:
