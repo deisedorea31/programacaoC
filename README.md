@@ -59,6 +59,17 @@ Encadeamento de decisões (if / else if / else)
 Comparação sequencial de faixas de valores
 Aplicação prática em categorização, como faixas etárias
 
+🔹 Estrutura de decisão com switch
+Uso de switch → case → break → default para testar várias opções de uma mesma variável
+Cada case representa um valor possível da variável
+O break encerra a execução de um caso, evitando que os seguintes rodem
+O default é usado como opção "coringa" (quando nenhum caso é atendido)
+📚 Estudei:
+Estrutura de seleção múltipla com switch
+Uso do case para mapear valores específicos
+Importância do break para evitar fall through (execução em cascata indesejada)
+Aplicação prática em menus, opções de sistemas e categorização de escolhas fixas
+Simulação de um caixa eletrônico, com verificação de saldo, depósito e saque
 
 🎮 Projeto Prático – Super Trunfo de Países
 Durante os estudos, desenvolvi um mini-projeto inspirado no jogo Super Trunfo, que foi sendo aprimorado a cada módulo:
