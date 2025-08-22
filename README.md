@@ -61,6 +61,7 @@ Aplicação prática em categorização, como faixas etárias
 
 🔹 Estrutura de decisão com switch
 Uso de switch → case → break → default para testar várias opções de uma mesma variável
+Aplicação do srand()
 Cada case representa um valor possível da variável
 O break encerra a execução de um caso, evitando que os seguintes rodem
 O default é usado como opção "coringa" (quando nenhum caso é atendido)
@@ -69,8 +70,10 @@ Estrutura de seleção múltipla com switch
 Uso do case para mapear valores específicos
 Importância do break para evitar fall through (execução em cascata indesejada)
 Aplicação prática em menus, opções de sistemas e categorização de escolhas fixas
+🎮 Prática
 Simulação de um caixa eletrônico, com verificação de saldo, depósito e saque
 Programa que imprime o nome do dia da semana com base em números de 1 a 7
+Jogo de advinhação
 
 🎮 Projeto Prático – Super Trunfo de Países
 Durante os estudos, desenvolvi um mini-projeto inspirado no jogo Super Trunfo, que foi sendo aprimorado a cada módulo:
