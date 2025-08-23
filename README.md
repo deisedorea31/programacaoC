@@ -70,12 +70,13 @@ Estrutura de seleção múltipla com switch
 Uso do case para mapear valores específicos
 Importância do break para evitar fall through (execução em cascata indesejada)
 Aplicação prática em menus, opções de sistemas e categorização de escolhas fixas
+
 🎮 Prática
 Simulação de um caixa eletrônico, com verificação de saldo, depósito e saque
 Programa que imprime o nome do dia da semana com base em números de 1 a 7
 Jogo de advinhação
 
-🎮 Projeto Prático – Super Trunfo de Países
+🎮 Projeto Prático 1 – Super Trunfo de Países
 Durante os estudos, desenvolvi um mini-projeto inspirado no jogo Super Trunfo, que foi sendo aprimorado a cada módulo:
 1. Cadastro inicial das cartas: Estado (A–H), código da carta, nome da cidade, população, área, PIB e pontos turísticos.
 2. Entrada via teclado e exibição formatada na tela.
@@ -87,6 +88,24 @@ Durante os estudos, desenvolvi um mini-projeto inspirado no jogo Super Trunfo, q
 8. Uso de estruturas de decisão (if / else).
 
 📌 Esse projeto foi importante para aplicar conceitos como entrada/saída, variáveis, operadores matemáticos, relacionais e lógicos, além de reforçar o pensamento computacional.
+
+🎮 Projeto Prático 2 – Jokenpô
+🪨📄✂️ Jokenpô em C
+Este projeto é uma simulação do clássico jogo Jokenpô (Pedra, Papel e Tesoura), implementado em linguagem C.
+O programa permite que o usuário jogue contra o computador, que faz sua escolha de forma aleatória.
+🚀 Funcionalidades
+1. Jogar contra o computador.
+2. Entrada de escolha do jogador: 1 - Pedra, 2 - Papel, 3 - Tesoura.
+3. Geração aleatória da jogada do computador.
+4. Exibição do vencedor da rodada.
+Possibilidade de jogar várias vezes até decidir sair.
+📚 Estudei
+Biblioteca stdio.h → Entrada e saída de dados.
+Biblioteca stdlib.h → Funções de aleatoriedade (rand, srand).
+Biblioteca time.h → Usada para gerar sementes aleatórias.
+Estrutura switch → Controle de fluxo para verificar a escolha do jogador e determinar o vencedor.
+🎯 Objetivo do projeto
+Este programa foi desenvolvido como exercício prático para aprimorar lógica de programação em C, uso de estruturas de decisão (switch) e funções de geração aleatória.
 
 🚀 Próximos passos
 Implementar laços de repetição (for, while) para cadastro de múltiplas cartas.
