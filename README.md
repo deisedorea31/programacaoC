@@ -86,6 +86,13 @@ Durante os estudos, desenvolvi um mini-projeto inspirado no jogo Super Trunfo, q
 6. Comparação de cartas
 7. Implementação da lógica de comparação entre atributos.
 8. Uso de estruturas de decisão (if / else).
+9. Será implementado um menu interativo usando switch para que o jogador possa escolher o atributo de comparação entre duas cartas de países.
+10. Exibição do Resultado: Mostrar na tela, de forma clara, o resultado da comparação, incluindo:
+a. O nome dos dois países.
+b. O atributo usado na comparação.
+c. Os valores do atributo para cada carta.
+d. Qual carta venceu.
+e. Em caso de empate, exibir a mensagem "Empate!".
 
 📌 Esse projeto foi importante para aplicar conceitos como entrada/saída, variáveis, operadores matemáticos, relacionais e lógicos, além de reforçar o pensamento computacional.
 
