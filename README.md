@@ -89,10 +89,12 @@ Durante os estudos, desenvolvi um mini-projeto inspirado no jogo Super Trunfo, q
 9. Será implementado um menu interativo usando switch para que o jogador possa escolher o atributo de comparação entre duas cartas de países.
 10. Exibição do Resultado: Mostrar na tela, de forma clara, o resultado da comparação, incluindo:
 a. O nome dos dois países.
-b. O atributo usado na comparação.
-c. Os valores do atributo para cada carta.
-d. Qual carta venceu.
-e. Em caso de empate, exibir a mensagem "Empate!".
+b. A escolha de dois atributos.
+c. Mostrar os atributos usados na comparação.
+d. Evitar a repetição na escolha dos atributos
+e. A soma dos valores dos atributo para cada carta.
+f. Qual carta venceu.
+g. Em caso de empate, exibir a mensagem "Empate!".
 
 📌 Esse projeto foi importante para aplicar conceitos como entrada/saída, variáveis, operadores matemáticos, relacionais e lógicos, além de reforçar o pensamento computacional.
 
@@ -114,8 +116,32 @@ Estrutura switch → Controle de fluxo para verificar a escolha do jogador e det
 🎯 Objetivo do projeto
 Este programa foi desenvolvido como exercício prático para aprimorar lógica de programação em C, uso de estruturas de decisão (switch) e funções de geração aleatória.
 
+🎮 Projeto Prático 3 – Jogo de Xadrez
+Descrição do Projeto
+Movimentando as Peças do xadrez
+Este desafio foca na movimentação das peças de xadrez usando estruturas de repetição em C. Será aplicado o que foi aprendido sobre for, while e do-while para simular movimentos no tabuleiro.
+O que sera feito:
+- Criar um único programa em C que simule o movimento de três peças: Torre, Bispo e Rainha. 
+- Para cada peça, utilize uma estrutura de repetição diferente (for, while ou do-while) para simular seu movimento. 
+- O programa deverá imprimir no console a direção do movimento a cada casa percorrida pela peça.
+Instruções:
+1. Torre: Move-se em linha reta horizontalmente ou verticalmente. 
+O programa deverá simular o movimento da Torre cinco casas para a direita.
+2. Bispo: Move-se na diagonal. 
+O programa deverá simular o movimento do Bispo cinco casas na diagonal para cima e à direita. Para representar a diagonal, você imprimirá a combinação de duas direções a cada casa (ex: "Cima, Direita").
+3. Rainha: Move-se em todas as direções. 
+O programa deverá simular o movimento da Rainha oito casas para a esquerda.
+- Requisitos funcionais
+- Entrada de Dados: Os valores para o número de casas a serem movidas serão definidos diretamente no código através de variáveis ou constantes.
+- Lógica de Movimentação: Cada programa deverá implementar a lógica de movimento específica de cada peça (Torre, Bispo, Rainha).
+- Saída de Dados: O programa deverá imprimir no console a direção do movimento a cada casa percorrida pela peça. Para movimentos na diagonal (Bispo), imprimir a combinação de duas direções. Utilize o comando printf para exibir as informações. As saídas devem seguir o padrão: printf("Cima\n");, printf("Baixo\n");, printf("Esquerda\n");, printf("Direita\n");, printf("Cima Esquerda\n"); printf("Direita\n");
+- Requisitos não funcionais
+- Performance: O código deve ser eficiente e executar sem atrasos perceptíveis.
+- Documentação: O código deve ser bem documentado com comentários explicando a lógica de cada parte.
+- Legibilidade: O código deve ser claro, organizado e fácil de entender, com nomes de variáveis descritivos e indentação adequada. Utilize apenas variáveis do tipo inteiro e string.
+🎯Este desafio visa avaliar sua compreensão e aplicação prática das estruturas de repetição em C.
+
 🚀 Próximos passos
-Implementar laços de repetição (for, while) para cadastro de múltiplas cartas.
 Avançar para funções, arrays, strings e ponteiros.
 Estudar alocação dinâmica e estruturas de dados (listas, filas, pilhas).
 Criar novos projetos práticos e mini-jogos em C.
