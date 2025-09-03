@@ -70,6 +70,34 @@ O programa deverá simular o movimento da Rainha oito casas para a esquerda.
 - Legibilidade: O código deve ser claro, organizado e fácil de entender, com nomes de variáveis descritivos e indentação adequada. Utilize apenas variáveis do tipo inteiro e string.
 🎯Este desafio visa avaliar sua compreensão e aplicação prática das estruturas de repetição em C.
 
+♟️ Desafio Nível Mestre – Criando Movimentos Complexos
+📌 Descrição
+Neste desafio, o programa de xadrez foi aprimorado para explorar técnicas avançadas de programação em C, simulando a movimentação de diferentes peças. Foram aplicados conceitos de recursividade, loops complexos, loops aninhados, continue e break.
+🚀 O que foi feito
+Recursividade:
+Substituímos os loops simples da Torre, Bispo e Rainha por funções recursivas.
+Cada função chama a si mesma até percorrer todas as casas definidas.
+Loops Complexos para o Cavalo:
+Movimentação em “L” (duas casas para cima e uma para a direita).
+Uso de loops aninhados com múltiplas variáveis e condições.
+Controle do fluxo com continue e break para simular com precisão a regra do cavalo.
+Bispo com Loops Aninhados:
+Além da versão recursiva, o Bispo também foi implementado usando loops aninhados.
+O loop externo representa o movimento vertical e o interno o movimento horizontal.
+⚙️ Requisitos Funcionais
+Entrada de Dados: Os valores de casas a percorrer são definidos diretamente no código.
+Recursividade: Torre, Bispo e Rainha devem obrigatoriamente ser implementados com funções recursivas.
+Loops Complexos (Cavalo): Implementar a movimentação em “L” com múltiplas variáveis, continue e break.
+Loops Aninhados (Bispo): Implementação adicional para simular o deslocamento diagonal.
+🎯 Objetivo
+Este desafio consolida conceitos fundamentais e avançados de C, como:
+Estruturas de repetição;
+Recursividade;
+Controle de fluxo com break e continue;
+Loops aninhados;
+Legibilidade e organização do código.
+Assim, o programa final simula de forma clara e organizada os movimentos das principais peças do xadrez, levando o aprendizado a um nível mestre.
+
 🚀 Próximos passos
 Avançar para funções, arrays, strings e ponteiros.
 Estudar alocação dinâmica e estruturas de dados (listas, filas, pilhas).
