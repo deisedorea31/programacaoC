@@ -102,6 +102,24 @@ Estrutura de repetição controlada por condição lógica (mas com execução i
 Diferença principal em relação ao while: a condição só é verificada no final
 Aplicação em menus interativos, validação com repetição obrigatória
 
+🔹 Arrays, Vetores e Matrizes
+Vetor (array unidimensional): coleção de elementos do mesmo tipo, acessados por um índice.
+Matriz (array bidimensional): tabela de linhas e colunas, também com elementos do mesmo tipo.
+Em C, os índices começam em 0.
+📚 Estudei:
+Estruturas de dados estáticas → tamanho definido na declaração.
+Acesso rápido via índice (vetor[i] ou matriz[linha][coluna]).
+Importância do laço de repetição (for/while) para percorrer arrays.
+⚖️ Diferença principal:
+Vetor: uma dimensão → sequência linear.
+Matriz: duas dimensões → formato de tabela (pode ter mais dimensões também).
+🎯 Aplicações:
+Vetores: armazenar notas de alunos, lista de números, nomes.
+Matrizes: representar tabelas, notas de alunos por disciplina, tabuleiros de jogos.
+
+🚀 Próximos passos
+Estudar alocação dinâmica e estruturas de dados (listas, filas, pilhas).
+Criar novos projetos práticos e mini-jogos em C.
 -----------------------------------------------------------------------------------------------------------------
 Este repositório é parte do meu aprendizado acadêmico na Estácio (ADS) e representa o ponto de partida da minha trajetória em programação.
 Hoje, focado no ensino formal da faculdade, mas com planos de expandir os estudos e projetos além dela.
